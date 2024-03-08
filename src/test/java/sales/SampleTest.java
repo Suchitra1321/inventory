@@ -9,4 +9,10 @@ public class SampleTest
 	{
 		System.out.println("---ts3---");
 	}
+	
+	@Test(groups = {"smoke","regression"})
+	public void sample2()
+	{
+		System.out.println("---ts4---");
+	}
 }
